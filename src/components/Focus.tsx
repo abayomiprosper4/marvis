@@ -1,9 +1,9 @@
 import { motion, type Easing } from 'framer-motion'
 
 const projects = [
-  { number: '01', title: 'Legal Access', category: 'Legal aids / Systems thinking', image: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=900&q=85' },
-  { number: '02', title: 'Care, considered', category: 'Caregiving / Human-centred service', image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85' },
-  { number: '03', title: 'Intelligent futures', category: 'Machine learning / Exploration', image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=85' },
+  { number: '01', title: 'Software Engineering', category: 'Computer science / Software systems', image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85' },
+  { number: '02', title: 'Data Science', category: 'Data / Analysis and insight', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85' },
+  { number: '03', title: 'Artificial Intelligence', category: 'Machine learning / Intelligent systems', image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=85' },
 ]
 const ease: Easing = [0.22, 1, 0.36, 1]
 const viewport = { once: true, amount: 0.2 }
